@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Zombieland/GameScene0/CharacterModule/VisualBodyModule/ObjectsWeapon/VFX/Prefabs/VFXShot.prefab.meta
+guid: d358814cdbd041f48a29da2fd10554a0
+========
+guid: 29ed7e3d5a4313c44b9a0d6f70c777b4
+>>>>>>>> develop:Assets/Zombieland/GameScene0/UIModule/UIMainModule/Resources/MainPCUICanvas.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

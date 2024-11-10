@@ -1,0 +1,16 @@
+{
+	"WeaponData":
+	{
+		"ID":"AK_0",
+		"Name":"AK",
+		"PrefabName":"AK_Prefab_0",
+		"VFXPrefabName":"VFXShot",
+		"SoundName":"AKShoot",
+		"AvailableImpactIDs":["MachineGunBullet"],
+		"ShootCooldown":0.2,
+		"ShotAccuracy":0.5,
+		"MaxImpactCount":33,
+		"HasTarget":false
+	},
+	"ShotProcess":null
+}

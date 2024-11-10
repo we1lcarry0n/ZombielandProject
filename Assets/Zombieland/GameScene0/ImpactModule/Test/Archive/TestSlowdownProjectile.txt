@@ -1,0 +1,51 @@
+{
+  "Assembler": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectAssembler, Assembly-CSharp",
+    "PrefabID": "Bullet"
+  },
+  "Delivery": {
+    "$type": "Zombieland.GameScene0.ImpactModule.MovingForwardHandler, Assembly-CSharp",
+    "MovingSpeed": 10.0,
+    "Range": 5.0,
+    "Lifetime": 0.0
+  },
+  "InitialImpact": {
+    "$type": "Zombieland.GameScene0.ImpactModule.SlowdownProjectile, Assembly-CSharp",
+    "Detector": {
+      "$type": "Zombieland.GameScene0.ImpactModule.UpfrontRayDetector, Assembly-CSharp",
+      "DetectionRadius": 1.0
+    },
+    "InitialImpactData": [
+      {
+        "Type": 0,
+        "AbsoluteValue": 15.0,
+        "PercentageValue": 0.0
+      }
+    ],
+    "TargetReachedEffectPrefabID": "ProjectileTargetReachedEffect",
+    "NoTargetEffectPrefabID": "ProjectileNoTargetEffect"
+  },
+  "BuffDebuffInjection": {
+    "$type": "Zombieland.GameScene0.ImpactModule.BuffDebuffInjection, Assembly-CSharp",
+    "Buffs": [],
+    "Debuffs": [
+      {
+        "$type": "Zombieland.GameScene0.CharacterModule.BuffDebuffModule.Debuff_Slowdown, Assembly-CSharp",
+        "BuffDebuffData": {
+          "ID": "ID",
+          "Name": "Name",
+          "IconID": "IconID",
+          "PrefabID": "PrefabID",
+          "VFXPosition": 0,
+          "LifeTime": 0.0,
+          "Interval": 0.0,
+          "DirectImpactData": {
+            "Type": 0,
+            "AbsoluteValue": 0.0,
+            "PercentageValue": 0.0
+          },
+        }
+      }
+    ]
+  }
+}

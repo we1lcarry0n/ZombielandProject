@@ -1,0 +1,44 @@
+{
+  "ImpactData": {
+    "ID": "MachineGunBullet",
+    "Name": "Machine Gun Bullet",
+    "IconID": "IconID",
+    "ConsumableResources": [
+      {
+        "ResourceType": 0,
+        "Value": 0.0
+      }
+    ]
+  },
+  "Assembler": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectAssembler, Assembly-CSharp",
+    "PrefabName": "MachineGunBullet"
+  },
+  "Delivery": {
+    "$type": "Zombieland.GameScene0.ImpactModule.MovingForwardHandler, Assembly-CSharp",
+    "MovingSpeed": 10.0,
+    "Range": 5.0,
+    "Lifetime": 0.0
+  },
+  "InitialImpact": {
+    "$type": "MachineGunBullet, Assembly-CSharp",
+    "Detector": {
+      "DetectionRadius": 0.3
+    },
+    "InitialImpactData": [
+      {
+        "Type": 0,
+        "AbsoluteValue": 15.0,
+        "PercentageValue": 0.0
+      }
+    ],
+    "TargetReachedEffectPrefabName": "MachineGunBulletTargetReachedEffect",
+    "NoTargetEffectPrefabName": "NoTargetEffectPrefabID",
+    "Force": 0.0
+  },
+  "BuffDebuffInjection": {
+    "$type": "Zombieland.GameScene0.ImpactModule.BuffDebuffInjection, Assembly-CSharp",
+    "Buffs": null,
+    "Debuffs": null
+  }
+}

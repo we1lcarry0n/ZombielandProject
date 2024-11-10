@@ -1,0 +1,14 @@
+{
+	"WeaponData":
+	{
+		"ID":"Pistol_0",
+		"Name":"Pistol",
+		"PrefabName":"Pistol_0",
+		"AvailableImpactIDs":["GunBullet"],
+		"ShootCooldown":1.0,
+		"ShotAccuracy":0.5,
+		"MaxImpactCount":15,
+		"HasTarget":false
+	},
+	"ShotProcess":null
+}

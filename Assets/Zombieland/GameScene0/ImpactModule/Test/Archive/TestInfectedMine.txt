@@ -1,0 +1,49 @@
+{
+  "Assembler": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectAssembler, Assembly-CSharp",
+    "PrefabID": "Mine"
+  },
+  "Delivery": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectInstantTeleport, Assembly-CSharp"
+  },
+  "InitialImpact": {
+    "$type": "Zombieland.GameScene0.ImpactModule.InfectedMine, Assembly-CSharp",
+    "Detector": {
+      "$type": "Zombieland.GameScene0.ImpactModule.SphereDetector, Assembly-CSharp",
+      "DetectionRadius": 10.0
+    },
+    "InitialImpactData": [
+      {
+        "Type": 0,
+        "AbsoluteValue": 15.0,
+        "PercentageValue": 0.0
+      }
+    ],
+    "LifeTime": 0.0,
+    "ExplosionEffectPrefabID": "MineExplosionEffect",
+    "OnTargetEffectPrefabID": "MineOnTargetEffect"
+  },
+  "BuffDebuffInjection": {
+    "$type": "Zombieland.GameScene0.ImpactModule.BuffDebuffInjection, Assembly-CSharp",
+    "Buffs": [],
+    "Debuffs": [
+      {
+        "$type": "Zombieland.GameScene0.CharacterModule.BuffDebuffModule.Debuff_InfectedWound, Assembly-CSharp",
+        "BuffDebuffData": {
+          "ID": "ID",
+          "Name": "Name",
+          "IconID": "IconID",
+          "PrefabID": "PrefabID",
+          "VFXPosition": 2,
+          "LifeTime": 0.0,
+          "Interval": 0.0,
+          "DirectImpactData": {
+            "Type": 0,
+            "AbsoluteValue": 0.0,
+            "PercentageValue": 0.0
+          }
+        }
+      }
+    ]
+  }
+}

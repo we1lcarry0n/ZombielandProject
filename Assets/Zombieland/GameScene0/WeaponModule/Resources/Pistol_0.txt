@@ -1,0 +1,16 @@
+{
+	"WeaponData":
+	{
+		"ID":"Pistol_0",
+		"Name":"Pistol",
+		"PrefabName":"Pistol_Prefab_0",
+		"VFXPrefabName":"VFXShot",
+		"SoundName":"PistolShoot",
+		"AvailableImpactIDs":["GunBullet"],
+		"ShootCooldown":1.0,
+		"ShotAccuracy":0.5,
+		"MaxImpactCount":15,
+		"HasTarget":false
+	},
+	"ShotProcess":null
+}

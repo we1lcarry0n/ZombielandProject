@@ -1,0 +1,16 @@
+{
+	"WeaponData":
+	{
+		"ID":"Wrench_0",
+		"Name":"Wrench",
+		"PrefabName":"Wrench_Prefab_0",
+		"VFXPrefabName":"",
+		"SoundName":"Wrench",
+		"AvailableImpactIDs":["Wrench"],
+		"ShootCooldown":0.2,
+		"ShotAccuracy":0.0,
+		"MaxImpactCount":-1,
+		"HasTarget":false
+	},
+	"ShotProcess":null
+}

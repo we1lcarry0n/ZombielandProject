@@ -1,0 +1,119 @@
+[
+  {
+    "NpcJsonFileName": "NPC_JSON_0",
+    "SpawnPosition": {
+      "X": 23.0,
+      "Y": 0.0,
+      "Z": 43.0
+    },
+    "PatrolPoint": {
+        "X": 60.0,
+        "Y": 0.0,
+        "Z": 95.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_0_1",
+    "SpawnPosition": {
+      "X": 10.0,
+      "Y": 0.0,
+      "Z": 6.0
+    },
+    "PatrolPoint": {
+        "X":20.0,
+        "Y": 0.0,
+        "Z": 15.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_1",
+    "SpawnPosition": {
+      "X": 110.0,
+      "Y": 0.0,
+      "Z": 95.0
+    },
+    "PatrolPoint": {
+        "X":100.0,
+        "Y": 0.0,
+        "Z": 90.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_2",
+    "SpawnPosition": {
+      "X": -75.0,
+      "Y": 0.0,
+      "Z": 70.0
+    },
+    "PatrolPoint": {
+        "X":-75.0,
+        "Y": 0.0,
+        "Z": 35.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_3",
+    "SpawnPosition": {
+      "X": 82.0,
+      "Y": 0.0,
+      "Z": 92.0
+    },
+    "PatrolPoint": {
+        "X":67.0,
+        "Y": 0.0,
+        "Z": 96.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_4",
+    "SpawnPosition": {
+      "X": 4.0,
+      "Y": 0.0,
+      "Z": 40.0
+    },
+    "PatrolPoint": {
+        "X":-15.0,
+        "Y": 0.0,
+        "Z": 15.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_5",
+    "SpawnPosition": {
+      "X": -15.0,
+      "Y": 0.0,
+      "Z": 140.0
+    },
+    "PatrolPoint": {
+        "X":-15.0,
+        "Y": 0.0,
+        "Z": 175.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_6",
+    "SpawnPosition": {
+      "X": -34.0,
+      "Y": 0.0,
+      "Z": 100.0
+    },
+    "PatrolPoint": {
+        "X":-0.0,
+        "Y": 0.0,
+        "Z": 140.0
+    }
+  },
+  {
+    "NpcJsonFileName": "NPC_JSON_7",
+    "SpawnPosition": {
+      "X": 13.0,
+      "Y": 0.0,
+      "Z": 30.0
+    },
+    "PatrolPoint": {
+        "X": 33.0,
+        "Y": 0.0,
+        "Z": 70.0
+    }
+  }
+]

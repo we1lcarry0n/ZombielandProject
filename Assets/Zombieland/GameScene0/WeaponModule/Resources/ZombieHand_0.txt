@@ -1,0 +1,16 @@
+{
+	"WeaponData":
+	{
+		"ID":"ZombieHand_0",
+		"Name":"Zombie Hand",
+		"PrefabName":"ZombieHand_Prefab_0",
+		"VFXPrefabName":"",
+		"SoundName":"Wrench",
+		"AvailableImpactIDs":["NPCHand"],
+		"ShootCooldown":0.2,
+		"ShotAccuracy":0.0,
+		"MaxImpactCount":-1,
+		"HasTarget":false
+	},
+	"ShotProcess":null
+}

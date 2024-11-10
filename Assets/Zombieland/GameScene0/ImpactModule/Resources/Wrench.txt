@@ -1,0 +1,39 @@
+{
+  "ImpactData": {
+    "ID": "Wrench",
+    "Name": "Wrench",
+    "IconID": "IconID",
+    "ConsumableResources": [
+      {
+        "ResourceType": 0,
+        "Value": 0.0
+      }
+    ]
+  },
+  "Assembler": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectParentAssembler, Assembly-CSharp",
+    "PrefabName": "Wrench"
+  },
+  "Delivery": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ObjectInstantTeleport, Assembly-CSharp",
+    "Lifetime": 0.15
+  },
+  "InitialImpact": {
+    "$type": "Wrench, Assembly-CSharp",
+    "Detector": {},
+    "InitialImpactData": [
+      {
+        "Type": 0,
+        "AbsoluteValue": 10.0,
+        "PercentageValue": 0.0
+      }
+    ],
+    "TargetReachedEffectPrefabName": "",
+    "Force": 0.0
+  },
+  "BuffDebuffInjection": {
+    "$type": "Zombieland.GameScene0.ImpactModule.BuffDebuffInjection, Assembly-CSharp",
+    "Buffs": null,
+    "Debuffs": null
+  }
+}

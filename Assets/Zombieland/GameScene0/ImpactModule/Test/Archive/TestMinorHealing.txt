@@ -1,0 +1,42 @@
+{
+  "Assembler": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ImpactAssembler, Assembly-CSharp"
+  },
+  "Delivery": {
+    "$type": "Zombieland.GameScene0.ImpactModule.ImpactInstantTeleport, Assembly-CSharp"
+  },
+  "InitialImpact": {
+    "$type": "Zombieland.GameScene0.ImpactModule.MinorHealing, Assembly-CSharp",
+    "InitialImpactData": [
+      {
+        "Type": 0,
+        "AbsoluteValue": 15.0,
+        "PercentageValue": 0.0
+      }
+    ],
+    "OnTargetEffectPrefabID": "HealingOnTargetEffect"
+  },
+  "BuffDebuffInjection": {
+    "$type": "Zombieland.GameScene0.ImpactModule.BuffDebuffInjection, Assembly-CSharp",
+    "Buffs": [
+      {
+        "$type": "Zombieland.GameScene0.CharacterModule.BuffDebuffModule.Buff_WeakHealing, Assembly-CSharp",
+        "BuffDebuffData": {
+          "ID": "ID",
+          "Name": "Name",
+          "IconID": "IconID",
+          "PrefabID": "PrefabID",
+          "VFXPosition": 0,
+          "LifeTime": 0.0,
+          "Interval": 0.0,
+          "DirectImpactData": {
+            "Type": 0,
+            "AbsoluteValue": 0.0,
+            "PercentageValue": 0.0
+          }
+        }
+      }
+    ],
+    "Debuffs": []
+  }
+}

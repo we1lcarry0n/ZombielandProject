@@ -1,0 +1,15 @@
+{
+    "Name":"Robot",
+    "ID":"Robot0",
+    "RobotType":"Graber",
+    "PrefabName":"Graber_Prefab",
+    "NameAnimatorControllerPC":"GraberAnimator",
+    "NameAnimatorControllerMobile":"",
+    "MaxHealth":100.0,
+    "CurrentHealth":100.0,
+    "Speed":3.0,
+    "StopDistance":1.0,
+    "HearingDistance":5.0,
+    "VisualAngle":90.0,
+    "VisualDistance":10.0,
+}

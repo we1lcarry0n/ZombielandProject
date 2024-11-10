@@ -1,0 +1,29 @@
+{
+    "Name":"NPC",
+    "ID":"NPC5",
+    "PrefabName":"NPC_Prefab_5",
+    "NameAnimatorControllerPC":"NPCAnimatorControllerPC_5",
+    "NameAnimatorControllerMobile":"NPCAnimatorControllerPC_5",
+    "MaxHealth":100.0,
+    "CurrentHealth":100.0,
+    "Speed":1.0,
+    "StopDistance":1.5,
+    "HearingDistance":5.0,
+    "VisualAngle":90.0,
+    "VisualDistance":10.0,
+    "WeaponPoint":"RightHand",
+    "NPCEquipmentSlotDatas":
+    [
+        {
+            "WeaponJSONName":"ZombieHand_0",
+            "SlotNumber":0,
+            "DefaultImpactIndexInList":0
+        },
+        {
+            "WeaponJSONName":"ZombieHand_0",
+            "SlotNumber":1,
+            "DefaultImpactIndexInList":0
+        },
+    ],
+    "DefaultSlotNumber":0
+}
